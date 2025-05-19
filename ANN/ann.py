@@ -467,8 +467,8 @@ def plot_performance_comparison(performance_dfs, pair_names, output_dir):
 def run_transfer_experiment():
     """전이 실험 실행"""
     # 설정
-    file_path = '경남_사무실/LOG_SMARTCARE_20240904.csv'
-    output_dir = 'correct_approach_results'
+    file_path = '../경남_사무실/LOG_SMARTCARE_20240904.csv'
+    output_dir = 'results'
     os.makedirs(output_dir, exist_ok=True)
     
     print("===== 개선된 에어컨 모델 전이 실험 시작 =====")
